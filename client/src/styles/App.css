@@ -1,0 +1,19 @@
+/* Modal Add */
+
+.remove-bullet-style >li {
+  padding-top: 10px;
+  list-style-type: none;
+}
+
+.img-center {
+   margin: 0 auto;
+}
+
+.is-270x337 {
+  width: 270px;
+  height: 337px;
+}
+
+.pull-right {
+  justify-content: flex-end;
+}

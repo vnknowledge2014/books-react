@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Graphql server for Book project",
+  "main": "app.js",
+  "author": "Mike Graham",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js",
+    "build": "babel src -w --out-dir dist",
+    "serve": "node dist/app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.1.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "mongoose": "^5.3.9",
+    "node-uuid": "^1.4.8",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "nodemon": "^1.18.5"
+  }
+}
